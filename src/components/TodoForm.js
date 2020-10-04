@@ -13,12 +13,12 @@ function TodoForm(props) {
     const handleSubmit=(e)=>{
         e.preventDefault();
 
-        // props.onSubmit({
-        //     id:Math.random(),
-        //     text:input
-        // });
+        props.onSubmit({
+            id:Math.random(),
+            text:input
+        });
 
-        setInput("huh");
+        setInput("");
     }
 
 
