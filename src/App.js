@@ -6,7 +6,10 @@ import TodoList from "./components/TodoList";
 function App() {
   return (
     <div className="todo-app">
-      <h2>Todo App</h2>
+      <h2 className="intro">Todo App</h2>
+      <hr/>
+      <hr/>
+      
       <TodoList />
       
     </div>
